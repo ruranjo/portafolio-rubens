@@ -31,23 +31,24 @@ const Home = () => {
                     </span>
                   </Link>
                 </div>
-              
-                <div
-                  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-700 to-blue-700 cursor-pointer"
-                >
-                  <a
+                <a 
                     href="/resume.pdf"
-                    className="flex justify-between items-center w-full text-white"
+                    className="flex justify-between items-center w-full text-white h-full"
                     download={true}
                     target="_blank"
                     rel="noreferrer"
-                    >Curriculum 
-                  </a>
+                    >
+                <div
+                  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-700 to-blue-700 cursor-pointer"
+                >
+                  Curriculum 
+                  
                   
                   <span className="group-hover:rotate-90 duration-300">
                     <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                   </span>
                 </div>
+                </a>
               </div>
             </div>
             <div>
