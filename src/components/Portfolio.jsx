@@ -2,10 +2,10 @@ import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import diceProject from "../assets/portfolio/diceProject.jpg";
+import contactlist from "../assets/portfolio/contactlist.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,9 +18,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
-      url_demo: "https://www.google.co.ve/",
-      url_code: "https://github.com/ruranjo/dicegame-react-updated",
+      src: contactlist,
+      url_demo: "https://ruranjo.github.io/lista-contactos-react/",
+      url_code: "https://github.com/ruranjo/lista-contactos-react",
     },
     {
       id: 3,

@@ -14,24 +14,24 @@ const About = () => {
               </p>
             </div>
     
-            <p className="text-xl mt-">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-              deserunt illum mollitia officiis qui exercitationem perferendis neque
-              quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-              iste, totam fugiat recusandae rerum laborum perferendis molestiae
-              aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-              ab mollitia voluptatibus, a nostrum eveniet laborum!
+            <p className="text-sm mt-0">
+            Hello! I'm RUBENS, passionate about data science and engineering, who enjoys working on both
+            web development and data science. I study computer science and electronics at the University,
+            in the Táchira region, Venezuela, and I am also interested in data science.
             </p>
-    
+            
+            <br />
+
+            <p className="text-sm mt-0">
+            I have focused on learning languages experientially and self-taught, with a special emphasis
+            on English, and I now have a strong grasp of it. However, I also enjoy studying other languages.
+            </p>
+
             <br />
     
-            <p className="text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              pariatur, vel similique sint, nobis aspernatur ut praesentium
-              explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-              quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-              Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-              magni quo! Eum cupiditate debitis labore.
+            <p className="text-sm">
+            My love for math and science is limitless, and I'm excited to be able to apply my knowledge and
+            skills to many exciting projects in the world of data science, web development, and more. stay tuned
             </p>
           </div>
         </div>
