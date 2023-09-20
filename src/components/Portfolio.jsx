@@ -1,44 +1,51 @@
 import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import diceProject from "../assets/portfolio/diceProject.jpg";
 import contactlist from "../assets/portfolio/contactlist.jpg";
+import nikestore from "../assets/portfolio/m1.png";
+import nikelanding from "../assets/portfolio/m2.png";
+import realwebstate from "../assets/portfolio/m3.png";
+
+/*
+
+
+
+ */
 
 const Portfolio = () => {
   const portfolios = [
+    
     {
       id: 1,
+      src: nikestore,
+      url_demo: "https://ruranjo.github.io/nike-cart-shopping/",
+      url_code: "https://github.com/ruranjo/nike-cart-shopping",
+    },
+    {
+      id: 2,
+      src: realwebstate,
+      url_demo: "https://ruranjo.github.io/real-state-react/",
+      url_code: "https://github.com/ruranjo/real-state-react",
+    },
+    {
+      id: 3,
+      src: nikelanding,
+      url_demo: "https://ruranjo.github.io/brandpage-react/",
+      url_code: "https://github.com/ruranjo/brandpage-react",
+    },
+    {
+      id: 4,
       src: diceProject,
       url_demo: "https://ruranjo.github.io/dicegame-react-updated/",
       url_code: "https://github.com/ruranjo/dicegame-react-updated",
       
     },
     {
-      id: 2,
+      id: 5,
       src: contactlist,
       url_demo: "https://ruranjo.github.io/lista-contactos-react/",
       url_code: "https://github.com/ruranjo/lista-contactos-react",
-    },
-    {
-      id: 3,
-      src: navbar,
-      url_demo: "https://www.google.co.ve/",
-      url_code: "https://github.com/ruranjo/dicegame-react-updated",
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-      url_demo: "https://www.google.co.ve/",
-      url_code: "https://github.com/ruranjo/dicegame-react-updated",
-    },
-    {
-      id: 5,
-      src: installNode,
-      url_demo: "https://www.google.co.ve/",
-      url_code: "https://github.com/ruranjo/dicegame-react-updated",
     },
     {
       id: 6,

@@ -14,7 +14,7 @@ const About = () => {
               </p>
             </div>
     
-            <p className="text-sm mt-0">
+            <p className="text-lg mt-0 sm:text-lg">
             Hello! I'm RUBENS, passionate about data science and engineering, who enjoys working on both
             web development and data science. I study computer science and electronics at the University,
             in the Táchira region, Venezuela, and I am also interested in data science.
@@ -22,14 +22,14 @@ const About = () => {
             
             <br />
 
-            <p className="text-sm mt-0">
+            <p className=" mt-0 sm:text-lg">
             I have focused on learning languages experientially and self-taught, with a special emphasis
             on English, and I now have a strong grasp of it. However, I also enjoy studying other languages.
             </p>
 
             <br />
     
-            <p className="text-sm">
+            <p className="text-lg sm:text-lg">
             My love for math and science is limitless, and I'm excited to be able to apply my knowledge and
             skills to many exciting projects in the world of data science, web development, and more. stay tuned
             </p>
