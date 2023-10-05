@@ -6,7 +6,7 @@ import contactlist from "../assets/portfolio/contactlist.jpg";
 import nikestore from "../assets/portfolio/m1.png";
 import nikelanding from "../assets/portfolio/m2.png";
 import realwebstate from "../assets/portfolio/m3.png";
-import Badget from "./badget";
+
 
 
 const Portfolio = () => {
@@ -97,8 +97,9 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 {badges.map((ticket, id) =>{
                   return (
-                    <Badget text={ticket}/>
-                
+                    <div className='m-2 text-white  px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '>
+                      <span>{ticket}</span>
+                    </div>
                   )
                 })
 
