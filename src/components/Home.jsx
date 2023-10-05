@@ -32,9 +32,8 @@ const Home = () => {
                   </Link>
                 </div>
                 <a 
-                    href="/resume.pdf"
+                    href="https://github.com/ruranjo/resume/blob/main/resume.pdf"
                     className="flex justify-between items-center w-full text-white h-full"
-                    download={true}
                     target="_blank"
                     rel="noreferrer"
                     >
