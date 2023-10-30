@@ -32,7 +32,7 @@ const Home = () => {
                   </Link>
                 </div>
                 <a 
-                    href="https://github.com/ruranjo/resume/blob/main/resume.pdf"
+                    href="https://github.com/ruranjo/resume/tree/main"
                     className="flex justify-between items-center w-full text-white h-full"
                     target="_blank"
                     rel="noreferrer"
