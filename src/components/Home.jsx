@@ -11,7 +11,7 @@ const Home = () => {
               <h2 className="text-2xl sm:text-5xl font-bold text-white">
                 I'm a Frontend | Backend | Developer
               </h2>
-              <p className="text-gray-500 py-6 max-w-md">
+              <p className="text-gray-500 py-5 max-w-md">
                 I have experience building and desgining software.
                 Currently, I love to work on web application using technologies like
                 React, style-component, MUI | Material-ui, Next JS, Tailwind, Djando, Express and More.
