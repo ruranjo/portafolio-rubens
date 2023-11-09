@@ -7,7 +7,7 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import sass from "../assets/sass.png";
 import github from "../assets/github.png";
-import vueImg from "../assets/vue-icon.png";
+import vueImg from "../assets/vicon.png";
 import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
@@ -64,7 +64,7 @@ const Experience = () => {
       id: 9,
       src: vueImg,
       title: "vue",
-      style: "shadow-green-600",
+      style: "shadow-green-700",
     },
   ];
 
