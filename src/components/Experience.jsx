@@ -64,7 +64,7 @@ const Experience = () => {
       id: 9,
       src: vueImg,
       title: "vue",
-      style: "shadow-green-700",
+      style: "shadow-green-600",
     },
   ];
 
