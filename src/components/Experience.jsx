@@ -7,6 +7,7 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import sass from "../assets/sass.png";
 import github from "../assets/github.png";
+import vue from "../assets/vue.png";
 import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
@@ -58,6 +59,12 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: vue,
+      title: "vue",
+      style: "shadow-green-700",
     },
   ];
 

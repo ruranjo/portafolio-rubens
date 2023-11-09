@@ -6,12 +6,20 @@ import contactlist from "../assets/portfolio/contactlist.jpg";
 import nikestore from "../assets/portfolio/m1.png";
 import nikelanding from "../assets/portfolio/m2.png";
 import realwebstate from "../assets/portfolio/m3.png";
+import tag from "../assets/portfolio/tag-vue.png";
+import flag from "../assets/portfolio/flag-vue.png";
 
 
 
 const Portfolio = () => {
   const portfolios = [
-    
+    {
+      id: 0,
+      src: flag,
+      url_demo: "https://ruranjo.github.io/flags-country-vue/",
+      url_code: "https://github.com/ruranjo/flags-country-vue",
+      badges: ["vue", "tailwind", "typescript", 'api consumer'],
+    },
     {
       id: 1,
       src: nikestore,
@@ -52,16 +60,22 @@ const Portfolio = () => {
       src: contactlist,
       url_demo: "https://ruranjo.github.io/lista-contactos-react/",
       url_code: "https://github.com/ruranjo/lista-contactos-react",
-      badges: ["tailwind", "react", "typescript"],
+      badges: ["tailwind", "react", "typescript",'api consumer'],
     },
     {
       id: 7,
+      src: tag,
+      url_demo: "https://ruranjo.github.io/tag-component-vue/",
+      url_code: "https://github.com/ruranjo/tag-component-vue",
+      badges: ["vue"],
+    },
+    {
+      id: 8,
       src: nikelanding,
       url_demo: "https://ruranjo.github.io/brandpage-react/",
       url_code: "https://github.com/ruranjo/brandpage-react",
       badges: ["styled-components", "react"],
     },
-    
     
   ];
 
@@ -78,7 +92,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8  sm:px-0 border border-slate-950" >
           {portfolios.map(({ id, src,url_code,url_demo, badges }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
@@ -94,10 +108,10 @@ const Portfolio = () => {
                 <a href={url_code}>Code</a>
                 </button>
               </div>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center flex-wrap">
                 {badges.map((ticket, id) =>{
                   return (
-                    <div className='m-2 text-white  px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '>
+                    <div key={id} className='m-2 text-white  px-3 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 '>
                       <span>{ticket}</span>
                     </div>
                   )
