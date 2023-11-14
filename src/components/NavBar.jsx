@@ -21,10 +21,7 @@ export const NavBar = () => {
           id: 4,
           link: "experience",
         },
-        {
-          id: 5,
-          link: "contact",
-        },
+        
       ];
 
       const handleToggleChangeMenu = () =>{
@@ -32,7 +29,7 @@ export const NavBar = () => {
       }
 
   return (
-    <div className='flex fixed items-center justify-between bg-black h-20 w-full px-4 text-white'>
+    <div className='flex sticky items-center justify-between bg-black h-20 w-full px-4 text-white'>
         {/*LOGO*/}
         <div className="logo ">
             <h1 className='text-3xl ml-2'>Rubens</h1>

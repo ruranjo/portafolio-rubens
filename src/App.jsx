@@ -1,6 +1,6 @@
 import './App.css'
 import About from './components/About'
-import Contact from './components/Contact'
+
 import Experience from './components/Experience'
 import Home from './components/Home'
 import {NavBar} from './components/NavBar'
@@ -15,8 +15,6 @@ export default function App() {
       <About/>
       <Portfolio/>
       <Experience/>
-      <Contact/>
-
       <SocialLinks />
     </div>
   )
